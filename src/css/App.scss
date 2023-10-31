@@ -1,0 +1,155 @@
+@import "variables";
+@import "mixing";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: $heading;
+}
+
+.container_fluid {
+    width: 100%;
+
+    .container {
+        width: 1170px;
+        margin: 0 auto;
+        padding: $defaultPadd;
+    }
+
+    .btn {
+        @include button;
+    }
+
+    .header {
+        @include header;
+        justify-content: $justify-space;
+
+    }
+
+    .wrapper {
+        border: $border;
+        @include header;
+        justify-content: space-between;
+
+        .employeeList {
+            padding: $defaultComponent;
+            border-right: $border;
+            width: 28%;
+        }
+
+        .box {
+            border-top: $border;
+            margin-top: $defaultComponent;
+            padding-top: $defaultComponent;
+        }
+
+        .box ul {
+            list-style: none;
+
+            li {
+                text-align: left;
+                padding: 10px;
+                background-color: #ebe9e9;
+                border-radius: 4px;
+                margin-bottom: $defaultComponent;
+                color: $heading;
+                @include header;
+                justify-content: $justify-space;
+
+                span {
+                    display: inline-block;
+                    cursor: pointer;
+                }
+
+                button {
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+    }
+}
+
+.popUp {
+    background: $popUpColor;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    @include header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .popUpContainer {
+        background-color: $white;
+        width: 500px;
+        padding: 40px 20px 30px 20px;
+        border-radius: 4px;
+        position: relative;
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-bottom: 20px;
+                position: relative;
+            }
+
+            p {
+                position: absolute;
+                margin: 0;
+                color: red;
+                top: 39px;
+                left: 0;
+                font-size: 12px;
+            }
+        }
+
+        .close {
+            position: absolute;
+            right: 17px;
+            top: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px 15px;
+        border: $border;
+    }
+}
+
+.employee_infomration {
+    width: calc(100% - 29%);
+    padding: $defaultComponent;
+
+    .employee_id {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        line-height: 1.6;
+    }
+}
+
+.notfound {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+}

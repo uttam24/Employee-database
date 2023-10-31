@@ -1,0 +1,12 @@
+@mixin button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@mixin header {
+    display: flex;
+}

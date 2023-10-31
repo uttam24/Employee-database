@@ -1,0 +1,54 @@
+{
+  "user": [
+    {
+      "id": 1006,
+      "firstName": "Marcia",
+      "lastName": "Gutmann",
+      "email": "Marcia.Gutmanngfg.com",
+      "contactNumber": "4746199430",
+      "age": 56,
+      "dob": "24/07/1966",
+      "address": "Address6"
+    },
+    {
+      "id": 1007,
+      "firstName": "Jarrod",
+      "lastName": "Ortiz",
+      "email": "Jarrod.Ortizgfg.com",
+      "contactNumber": "4859095720",
+      "age": 82,
+      "dob": "26/12/1940",
+      "address": "Address7"
+    },
+    {
+      "id": 1008,
+      "firstName": "Gabriella",
+      "lastName": "Wilkinson",
+      "email": "Gabriella.Wilkinsongfg.com",
+      "contactNumber": "4379190775",
+      "age": 36,
+      "dob": "24/06/1986",
+      "address": "Address8"
+    },
+    {
+      "id": 1009,
+      "firstName": "Elisabeth",
+      "lastName": "Hayes",
+      "email": "Elisabeth.Hayesgfg.com",
+      "contactNumber": "4394091994",
+      "age": 66,
+      "dob": "17/08/1956",
+      "address": "Address9"
+    },
+    {
+      "id": 1010,
+      "firstName": "Jaime",
+      "lastName": "Reichel",
+      "email": "Jaime.Reichelgfg.com",
+      "contactNumber": "4622392580",
+      "age": 41,
+      "dob": "21/01/1981",
+      "address": "Address10"
+    }
+  ]
+}
